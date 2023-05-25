@@ -1,0 +1,240 @@
+img {
+    height: 50vw;
+    width: 50vw;
+}
+
+
+
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+    background-image: url(space.jpg);
+    color: white
+}
+
+#blackhole {
+    animation: spin 5s linear infinite ;
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(720deg);
+    }
+}
+
+
+
+#hitbyufo {
+ animation: flyRight 2s linear infinite;
+}
+
+@keyframes flyRight {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(80vw);
+    }
+}
+
+@keyframes flyLeft {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-80vw);
+    }
+}
+
+
+
+#zxo20hitufo {
+    animation: flyup 2s linear infinite;
+    position: absolute;
+}
+
+
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.imgDiv img {
+    height: 40vw;
+    width: 40vw;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+
+
+#index {
+    background-image: none;
+    background-color: rgb(0, 255, 251);
+}
+
+
+
+.header {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ 
+
+.navBar {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.header button {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    background-color: aliceblue;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+.header button:hover {
+    background-color: black;
+    color: white
+}
+
+#prime{
+    animation: spin 5s linear infinite
+}
+
+p {
+    font-size: 3vmax;
+}
+
+#primeicepop {
+    animation: spin 4s linear infinite;
+}
+
+
+
+
+#primeicepop {
+    animation: flyRight 3s linear infinite;
+}
+
+
+
+#first5primeflavers {
+    animation: flyLeft 3s linear infinite;
+}
+
+
+
+#MrBeast {
+    background-image: none;
+    background-color: rgb(0, 255, 251);
+    
+}
+
+
+
+#loganpaulandksi {
+    animation: flyDown 2s linear infinite;
+}
+
+
+
+@keyframes  flyDown{
+    0% {
+        transform: translateY(0);
+    }
+
+    100%  {
+        transform: translateY(30vh)
+    }
+}
+
+
+
+#MrBeastlogo {
+    animation: spin 3s linear infinite;
+}
+
+
+
+#primelemonadeandksi {
+    animation: zoom 2s linear infinite;
+}
+
+
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+#mrbeast {
+animation: zoom 2s linear infinite;
+}
+
+
+ 
+
+#babybeast {
+    animation: zoomBack 2s linear infinite;
+}
+
+
+
+@keyframes zoomBack {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
